@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","sources":["webpack://@enesusta/clipboard/./index.js"],"sourcesContent":["const clipboard = (arg) => {\n  navigator.clipboard.writeText(JSON.stringify(arg));\n};\n\nexport default clipboard;\n"],"names":["arg","navigator","clipboard","writeText","JSON","stringify"],"mappings":"2DAIA,UAJmBA,IACjBC,UAAUC,UAAUC,UAAUC,KAAKC,UAAUL,GAAK,C"}
