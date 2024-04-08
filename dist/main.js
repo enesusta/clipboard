@@ -1,2 +1,0 @@
-!function(){var e={498:function(e,t,r){"use strict";r.r(t);t.default=e=>{navigator.clipboard.writeText(JSON.stringify(e))}}},t={};function r(o){var n=t[o];if(void 0!==n)return n.exports;var i=t[o]={exports:{}};return e[o](i,i.exports,r),i.exports}r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};r("498")}();
-//# sourceMappingURL=main.js.map

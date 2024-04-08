@@ -5,7 +5,8 @@ const minifyPlugin = require("@rspack/plugin-minify");
 /** @type {import('@rspack/cli').Configuration} */
 
 module.exports = (env, argv) => {
-  const isDev = process.env.NODE_ENV === "development";
+  let isDev = process.env.NODE_ENV === "development";
+  isDev = false;
   return {
     context: __dirname,
     devtool: !isDev ? "source-map" : "eval",
@@ -28,7 +29,7 @@ module.exports = (env, argv) => {
       },
     },
     optimization: {
-      minimize: isDev,
+      minimize: true,
       minimizer: [
         new minifyPlugin({
           minifier: "terser",
